@@ -1,0 +1,43 @@
+
+1719318541402|11|statement|select * from information_schema.sequences
+1719318541458|2|statement|select * from "public"."adresse" where 1=0
+1719318541488|16|statement|select * from "public"."ecole" where 1=0
+1719318541498|1|statement|select * from "public"."etudiant" where 1=0
+1719318541504|1|statement|select * from "public"."projet" where 1=0
+1719318545878|1|statement|select e1_0.ecole_id,e1_0.adresse_id,e1_0.domaine_ecole,e1_0.nom_ecole from ecole e1_0 offset 5 rows fetch first 5 rows only
+1719318545887|0|statement|select count(e1_0.ecole_id) from ecole e1_0
+1719318545891|0|commit|
+1719318570821|12|statement|select * from information_schema.sequences
+1719318570874|2|statement|select * from "public"."adresse" where 1=0
+1719318570902|14|statement|select * from "public"."ecole" where 1=0
+1719318570915|1|statement|select * from "public"."etudiant" where 1=0
+1719318570920|1|statement|select * from "public"."projet" where 1=0
+1719318574521|1|statement|select e1_0.ecole_id,e1_0.adresse_id,e1_0.domaine_ecole,e1_0.nom_ecole from ecole e1_0 offset 5 rows fetch first 5 rows only
+1719318574528|0|statement|select count(e1_0.ecole_id) from ecole e1_0
+1719318574532|0|commit|
+1719318726808|13|statement|select * from information_schema.sequences
+1719318726860|2|statement|select * from "public"."adresse" where 1=0
+1719318726888|14|statement|select * from "public"."ecole" where 1=0
+1719318726901|1|statement|select * from "public"."etudiant" where 1=0
+1719318726906|1|statement|select * from "public"."projet" where 1=0
+1719318758963|1|statement|select e1_0.ecole_id,e1_0.adresse_id,e1_0.domaine_ecole,e1_0.nom_ecole from ecole e1_0 offset 5 rows fetch first 5 rows only
+1719318758973|0|statement|select count(e1_0.ecole_id) from ecole e1_0
+1719318758976|0|commit|
+1719318843716|1|statement|insert into adresse (code_postal,complement_adresse,ville) values (0,'string','string')
+1719318843732|0|statement|insert into ecole (adresse_id,domaine_ecole,nom_ecole) values (3,'string','string')
+1719318843734|0|statement|insert into etudiant (ecole_id,nom,prenom) values (3,'string','string')
+1719318843735|0|statement|insert into projet (nom_projet) values ('string')
+1719318843752|1|statement|insert into etudiant_projet (etudiant_id,projet_id) values (3,3)
+1719318843755|2|commit|
+1719318846441|0|statement|insert into adresse (code_postal,complement_adresse,ville) values (0,'string','string')
+1719318846443|0|statement|insert into ecole (adresse_id,domaine_ecole,nom_ecole) values (4,'string','string')
+1719318846444|0|statement|insert into etudiant (ecole_id,nom,prenom) values (4,'string','string')
+1719318846445|0|statement|insert into projet (nom_projet) values ('string')
+1719318846447|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (4,4)
+1719318846448|0|commit|
+1719318848070|0|statement|insert into adresse (code_postal,complement_adresse,ville) values (0,'string','string')
+1719318848071|0|statement|insert into ecole (adresse_id,domaine_ecole,nom_ecole) values (5,'string','string')
+1719318848072|0|statement|insert into etudiant (ecole_id,nom,prenom) values (5,'string','string')
+1719318848073|0|statement|insert into projet (nom_projet) values ('string')
+1719318848075|0|statement|insert into etudiant_projet (etudiant_id,projet_id) values (5,5)
+1719318848077|1|commit|
